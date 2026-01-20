@@ -86,7 +86,7 @@ h3 {
 }
 
 h4, .section-label {
-    font-family: "DM Sans", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 140%;
@@ -243,6 +243,7 @@ h4, .section-label {
 }
 
 .trusted-section .section-label {
+    font-family: "DM Sans", sans-serif;
     text-align: left;
     margin-bottom: 30px;
     color: #6f6f6f;
@@ -628,6 +629,7 @@ h4, .section-label {
 .author-name {
     font-family: "DM Sans", sans-serif;
     font-size: 15px;
+    font-style: normal;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.075px;
@@ -638,6 +640,7 @@ h4, .section-label {
 .author-title {
     font-family: "DM Sans", sans-serif;
     font-size: 12px;
+    font-style: normal;
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.12px;
