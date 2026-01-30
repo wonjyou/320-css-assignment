@@ -24,6 +24,11 @@
   <path d="M5.01037 4.9934V1.05184L5.64939 1.09142L0.735155 6.01131L0 5.27615L4.91423 0.361923L4.96513 1.00094H1.0066V0L6 0.0113101V4.9934H5.01037Z" fill="white"/>
 </svg></a>
             </div>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
         </div>
     </header>
 
@@ -34,7 +39,11 @@
                 <h1 class="hero-title">Browse everything.</h1>
                 <div class="hero-image-gallery">
                     <div class="hero-image-wrapper">
-                        <img src="assets/images/hero.jpg" alt="Mountain landscape" class="hero-image">
+                        <picture>                            
+                            <source media="(max-width: 580px)" srcset="assets/images/hero-mobile.jpg">                            
+                            <source media="(max-width: 1024px)" srcset="assets/images/hero-tablet.jpg">
+                            <img src="assets/images/hero.jpg" alt="Mountain landscape" class="hero-image">
+                        </picture>
                     </div>
                 </div>
             </div>
