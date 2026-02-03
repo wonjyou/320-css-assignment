@@ -234,12 +234,12 @@ h4, .section-label {
    HERO SECTION
    ======================================== */
 .hero-section {
-    padding-top: 160px;
+    padding-top: 100px;
     padding-bottom: 0;
 }
 
 .hero-title {
-    margin-bottom: 200px;
+    margin-bottom: 140px;
 }
 
 .hero-image-gallery {
@@ -1550,3 +1550,4 @@ h4, .section-label {
         height: 600px;        
     }
 }
+
